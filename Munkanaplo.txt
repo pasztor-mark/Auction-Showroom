@@ -1,5 +1,5 @@
 2024. 04. 12 
-  - P.M - Initial commit, collaboratorok hozzáadása, licenc beállítása
+  - P.M - Initial commit, collaboratorok hozzáadása, licenc beállítása + vite init, router
   - P.B - Munkanapló létrehozása, első nap logolása
   - B.B - Readme elkezdése - projektlerás
   - Egyéb (commitok nélkül)
