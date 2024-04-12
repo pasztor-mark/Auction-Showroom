@@ -1,0 +1,8 @@
+2024. 04. 12 
+  - P.M - Initial commit, collaboratorok hozzáadása, licenc beállítása
+  - P.B - Munkanapló létrehozása, első nap logolása
+  - B.B - Readme elkezdése - projektlerás
+  - Egyéb (commitok nélkül)
+      - Közös - Projects tab előkészítése
+              - Első issue-k létrehozása
+              - Termék részleteinek megbeszélése
