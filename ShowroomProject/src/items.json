@@ -1,0 +1,40 @@
+{
+    "AuctionItems": [
+        {
+            "name": "Chevrolet Camaro",
+            "img1": "https://i.postimg.cc/g0cs2sHZ/k-p-2024-04-17-173759599.png",
+            "img2": "https://i.postimg.cc/cCCBBLb4/k-p-2024-04-17-173712564.png",
+            "description": "A mint-condition 1982 Chevrolet Camaro, imported from Nevada, USA in 2007, and has been serviced and maintained extensively. Logbook is available, looking to sell urgently.",
+            "year": 1982,
+            "mileage": 150000,
+            "displacement": 6600,
+            "condition": "daily driven",
+            "hp": 250,
+            "currentBid": 12000
+        },
+        {
+            "name": "Lincoln Continental Mk. V",
+            "img1": "https://i.postimg.cc/T1nHB96H/k-p-2024-04-17-184732489.png",
+            "img2": "https://i.postimg.cc/DfGDW2Xd/k-p-2024-04-17-184759249.png",
+            "description": "I'm looking to offer this luxurious Lincoln coupe from the late 70's. Excellent condition, all interior gadgets are working in perfect order, and has no engine issues.",
+            "year": 1978,
+            "mileage": 100000,
+            "displacement": 7500,
+            "condition": "rarely used",
+            "hp": 208,
+            "currentBid": 20000
+        },
+        {
+            "name": "Chevrolet Corvette C3 ZL1",
+            "img1": "https://i.postimg.cc/FHFNgfbQ/k-p-2024-04-17-185300781.png",
+            "img2": "https://i.postimg.cc/3rgTsjnT/k-p-2024-04-17-185359339.png",
+            "description": "An iconic Indianapolis 500 era sports car from General Motors, in the ZL1 performance trim.",
+            "year": 1968,
+            "mileage": 200000,
+            "displacement": 7000,
+            "condition": "rarely used",
+            "hp": 200,
+            "currentBid": 35000
+        }
+    ]
+}

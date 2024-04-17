@@ -11,10 +11,10 @@ export function Navigation() {
                     <FaCarOn size={50} className='text-center text-light'/>
                     </a>
                 </NavbarBrand>
-                <NavLink className='d-flex'>
+                <NavLink href='/' className='d-flex'>
                     <h4 className='text-light justify-content-center mx-auto px-5'>Home</h4>
                 </NavLink>
-                <NavLink className='d-flex'>
+                <NavLink href="auction" className='d-flex'>
                     <h4 className='text-light justify-content-center mx-auto px-5'>Auction</h4>
                 </NavLink>
                 <NavLink className='d-flex'>
