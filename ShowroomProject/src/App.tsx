@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Navigation from './components/Navbar/Navigation'
 import { Landing } from './pages/Landing/Landing'
 import Footer from './components/Footer/Footer'
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Navigation/>
-      <BrowserRouter>
+      <HashRouter>
       <Routes>
         <Route path='/'>
             <Route index element={<Landing/>}></Route>
@@ -19,7 +19,7 @@ function App() {
             <Route path='contact' element={<>Kapcsolat</>}></Route>
         </Route>
       </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <Footer/>
     </>
   )
