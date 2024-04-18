@@ -8,3 +8,13 @@
               - Termék részleteinek megbeszélése
 2024 04. 17
   - P.M - nem akarok törizni, valamit csinálok rajta
+2024 04. 18
+  - P.M - sell page és aukció alapja kész (ez és a tegnapi a munkám holnapra mert nem leszek bent)
+2024 04. 19
+  - B.B (commitok nélküli)
+      - adatbázis kész (https://api.jsonbin.io/v3/b/661fff7aad19ca34f85b960a)
+      - adatbázis beállítása
+  - P.B (commitok nélkül)
+      - képek megvágása
+      - pages workflow átírása
+    
