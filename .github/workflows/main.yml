@@ -37,6 +37,7 @@ jobs:
           cache: 'npm'
           cache-dependency-path: ShowroomProject/package-lock.json
       - name: Install dependencies
+        working-directory: ./ShowroomProject/
         run: npm ci
       - name: Build
         run: npm run build
