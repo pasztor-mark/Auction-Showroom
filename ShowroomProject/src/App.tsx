@@ -8,15 +8,16 @@ import Sell from './pages/Sell/Sell'
 
 function App() {
   return (
+    //ugyanúgy react router, csak a git pages miatt hashroutert kell használni
     <>
       <Navigation/>
       <HashRouter>
       <Routes>
         <Route path='/'>
             <Route index element={<Landing/>}></Route>
-            <Route path='auction' element={<Auction/>}></Route>
-            <Route path='sell' element={<Sell/>}></Route>
-            <Route path='contact' element={<>Kapcsolat</>}></Route>
+            <Route path='/auction' element={<Auction/>}></Route>
+            <Route path='/sell' element={<Sell/>}></Route>
+            <Route path='/contact' element={<>Kapcsolat</>}></Route>
         </Route>
       </Routes>
       </HashRouter>
