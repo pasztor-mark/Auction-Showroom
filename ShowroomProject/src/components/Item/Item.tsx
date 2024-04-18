@@ -1,3 +1,4 @@
+
 import { } from 'react'
 import { Row, Col, Container, Card, Carousel, CarouselItem, Image, CardBody, CardTitle, CardText, Button } from 'react-bootstrap'
 import { FaMoneyBillWave, FaCalendarDays, FaRoad, FaGaugeHigh, FaGem, FaFlagCheckered } from 'react-icons/fa6'
@@ -16,6 +17,7 @@ interface Props {
 }
 
 export function Item(props: Props) {
+   
     return (
         <>
             <Col sm={12} md={6}>
@@ -46,10 +48,10 @@ export function Item(props: Props) {
                             <h6 className='text-center'><FaMoneyBillWave color='#4bb984' size={28} /> Current bid</h6>
                             <Row className='mx-auto'>
                                 <Col sm={12} md={8}>
-                                    <input min={1200} step={50} type="number" placeholder={`Enter your bid here`} className='w-100 px-2 rounded' style={{ height: 40 }} />
+                                    <input disabled min={1200} step={50} type="number" placeholder={`Enter your bid here`} className='w-100 px-2 rounded' style={{ height: 40 }} />
                                 </Col>
                                 <Col sm={12} md={4} className='d-flex'>
-                                    <Button className='bg-primary border-0 px-3 mx-auto'><h5 className='mx-auto'>Place Bid!</h5></Button>
+                                    <Button disabled className='bg-primary border-0 px-3 mx-auto'><h5 className='mx-auto'>Auction closed</h5></Button>
                                 </Col>
 
                             </Row>

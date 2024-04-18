@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react'
-import {Container, Row, Col} from 'react-bootstrap'
+import {Container, Row, Col, Button} from 'react-bootstrap'
 import axios from 'axios'
 import { AuctionItem, AuctionItems } from '../../items'
 import Item from '../../components/Item/Item'
@@ -31,7 +31,7 @@ export function Auction() {
                 </Col>
             </Row>
             <Row>
-                <Container className='border border-primary rounded'>
+                <Container className='border border-primary rounded' style={{maxHeight: 800, overflowY: "scroll"}}>
                     <Row className=' d-flex justify-content-center'>
 
                     {
@@ -41,6 +41,15 @@ export function Auction() {
                     }                        
                     </Row>
                 </Container>
+            </Row>
+            <Row>
+                <Container className='d-flex justify-content-center flex-column mx-auto'>
+                   <h3 className='mx-auto pt-4'>Have something to sell?</h3>
+                    <hr className='mx-auto w-50' /> 
+                    <p className='mx-auto w-50 text-center'>Navigate to the Sell page to put your own vehicle up for auction!</p>
+                    <Button href='sell' className="border border-0 bg-primary w-25 mx-auto"><h3>Sell</h3></Button>
+                </Container>
+        
             </Row>
         </Container>
         </>

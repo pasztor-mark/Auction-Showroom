@@ -3,6 +3,7 @@ export interface AuctionItems {
   }
   
   export interface AuctionItem {
+
     name: string
     img1: string
     img2: string

@@ -17,7 +17,7 @@ export function Landing() {
             <Row>
                 <Col sm={12} className='d-flex flex-column'>
                     <Image fluid src={heroimage} rounded className='border border-primary border-2'></Image>
-                    <Button className='bg-primary border-0 mt-3 mx-auto'><h3><a href="#" className='text-center text-light text-decoration-none line-height-0'>Browse Our Catalogue</a></h3></Button>
+                    <Button className='bg-primary border-0 mt-3 mx-auto'><h3><a href="auction" className='text-center text-light text-decoration-none line-height-0'>Browse Our Catalogue</a></h3></Button>
                 </Col>
             </Row>
             <Row>
