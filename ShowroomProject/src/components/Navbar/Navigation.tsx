@@ -20,7 +20,7 @@ export function Navigation() {
                 <NavLink href='#sell' className='d-flex'>
                     <h4 className='text-light justify-content-center m-auto px-5'>Sell</h4>
                 </NavLink>
-                <NavLink className='d-flex'>
+                <NavLink href="#contact" className='d-flex'>
                     <h4 className='text-light justify-content-center m-auto px-5'>Contact</h4>
                 </NavLink>
                 
