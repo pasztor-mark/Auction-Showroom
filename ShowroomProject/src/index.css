@@ -7,6 +7,9 @@ body {
 .border-primary {
     border-color: #4BB984 !important;
 }
+.text-primary {
+    color: #4BB984 !important;
+}
 hr {
     color: #4BB984;
     border: 1px solid #4BB984;
