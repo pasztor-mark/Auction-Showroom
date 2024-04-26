@@ -7,7 +7,7 @@ export function Navigation() {
         <Navbar className='bg-primary text-light' expand="md">
             <Nav className='px-3 mt-auto'>
                 <NavbarBrand className='text-light line-height-0 text-center'>
-                    <a href="/" >
+                    <a href="#/" >
                     <FaCarOn size={50} className='text-center text-light'/>
                     </a>
                 </NavbarBrand>
