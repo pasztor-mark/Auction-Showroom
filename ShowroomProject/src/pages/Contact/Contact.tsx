@@ -1,5 +1,5 @@
 import { } from 'react';
-import { Container, Row, Col, Card, CardBody, CardHeader, CardFooter } from 'react-bootstrap'
+import { Container, Row, Col, Card, CardBody, CardHeader } from 'react-bootstrap'
 import { } from 'react-icons/fa6'
 
 export function ContactPage() {
