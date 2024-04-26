@@ -4,6 +4,7 @@ import Navigation from './components/Navbar/Navigation'
 import { Landing } from './pages/Landing/Landing'
 import Footer from './components/Footer/Footer'
 import { Auction } from './pages/Auction/auction'
+import { ContactPage } from './pages/Contact/Contact'
 import Sell from './pages/Sell/Sell'
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
             <Route index element={<Landing/>}></Route>
             <Route path='/auction' element={<Auction/>}></Route>
             <Route path='/sell' element={<Sell/>}></Route>
-            <Route path='/contact' element={<>Kapcsolat</>}></Route>
+            <Route path='/contact' element={<ContactPage/>}></Route>
         </Route>
       </Routes>
       </HashRouter>
