@@ -1,5 +1,5 @@
 import { } from 'react';
-import { Container, Row, Col, Card, CardBody, CardHeader } from 'react-bootstrap'
+import { Container, Row, Col, Card, CardBody, CardHeader, CardFooter } from 'react-bootstrap'
 import { } from 'react-icons/fa6'
 
 export function ContactPage() {
@@ -43,6 +43,30 @@ export function ContactPage() {
                                 </CardBody>
                             </Card>
                         </Col>
+                        <hr className='m-4' />
+                </Row>
+                <Row className='text-center'>
+                    <h2>Still have questions?</h2>
+                    <p>Feel free to contact us!</p>
+                </Row>
+                <Row>
+                    <Card>
+                        <CardHeader>Contact info</CardHeader>
+                        <CardBody>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo in fugit corporis atque tenetur veritatis laboriosam debitis aut vitae aperiam?</CardBody>
+                        <CardFooter>Elérhető 0-24</CardFooter>
+                    </Card>
+                    
+                    <Card>
+                        <CardHeader>Contact info</CardHeader>
+                        <CardBody>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo in fugit corporis atque tenetur veritatis laboriosam debitis aut vitae aperiam?</CardBody>
+                        <CardFooter>Elérhető 0-24</CardFooter>
+                    </Card>
+                    
+                    <Card>
+                        <CardHeader>Contact info</CardHeader>
+                        <CardBody>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo in fugit corporis atque tenetur veritatis laboriosam debitis aut vitae aperiam?</CardBody>
+                        <CardFooter>Elérhető 0-24</CardFooter>
+                    </Card>
                 </Row>
             </Container>
         </>
