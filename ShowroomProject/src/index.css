@@ -7,11 +7,18 @@ body {
 .border-primary {
     border-color: #4BB984 !important;
 }
+.text-primary {
+    color: #4BB984 !important;
+}
 hr {
     color: #4BB984;
     border: 1px solid #4BB984;
     border-radius: 5px;
     opacity: 100%;
+}
+.card-header {
+    background-color: #4BB984 !important;
+    color: white !important;
 }
 ::-webkit-scrollbar {
     background-color: transparent;

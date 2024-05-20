@@ -8,6 +8,8 @@ export function Auction() {
     const [items, setItems] = useState([] as AuctionItem[])
 
     useEffect(() => {
+        console.log("page mounted")
+        document.title = "Auction | BPP"
         async function load() {
           axios.get('https://api.jsonbin.io/v3/b/661fff7aad19ca34f85b960a/latest?meta=false', {
             method: "GET",

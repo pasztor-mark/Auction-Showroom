@@ -35,23 +35,27 @@ export function Sell() {
 
             }]
         )
-
     }
-
+    useEffect(() => {
+        console.log("page mounted")
+        console.log("demo image 1: https://i.postimg.cc/XvWhkGb3/k-p-2024-05-20-152815170.png")
+        console.log("demo image 2: https://i.postimg.cc/t70DRwRy/k-p-2024-05-20-153039254.png")
+        document.title = "Selling | BPP"
+    }, [])
     useEffect(() => {
         if (updating) {
             axios.put('https://api.jsonbin.io/v3/b/661fff7aad19ca34f85b960a',
-            (`{
+                (`{
                     "AuctionItems": ${JSON.stringify(postedItems)}
                 }`), {
-            method: "PUT",
-            headers: {
-                "Content-Type": "application/json",
+                method: "PUT",
+                headers: {
+                    "Content-Type": "application/json",
+                }
             }
+            )
         }
-        )
-        }
-        
+
     }, [postedItems])
     useEffect(() => {
         newCar()

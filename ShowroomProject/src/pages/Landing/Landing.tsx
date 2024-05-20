@@ -1,9 +1,13 @@
-import {} from 'react'
+import {useEffect} from 'react'
 import { Container, Row, Col, Image, Button} from 'react-bootstrap'
 import heroimage from './heroimage.jpg'
 import { FaNewspaper, FaCoins, FaMagnifyingGlassChart, FaPhone, FaPenToSquare } from "react-icons/fa6";
 
 export function Landing() {
+
+    useEffect(() =>{
+        document.title = "Landing | BPP"
+    }, [])
     return (
         <>
         <Container className='text-light'>
@@ -49,4 +53,4 @@ export function Landing() {
         </>
     )
 }
-export default Landing()
+export default Landing

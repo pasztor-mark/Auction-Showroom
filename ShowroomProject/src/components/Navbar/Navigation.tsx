@@ -1,14 +1,15 @@
 import {} from 'react'
 import {Nav, Navbar, NavbarBrand, NavLink} from 'react-bootstrap'
 import { FaCarOn } from "react-icons/fa6";
+import barnus from "/barnus.png"
 export function Navigation() {
     return (
         <>
-        <Navbar className='bg-primary text-light' expand="md">
-            <Nav className='px-3 mt-auto'>
+        <Navbar className='bg-primary text-light' expand="sm">
+            <Nav className='px-0 mt-auto'>
                 <NavbarBrand className='text-light line-height-0 text-center'>
-                    <a href="/" >
-                    <FaCarOn size={50} className='text-center text-light'/>
+                    <a href="#/" >
+                    <img src={barnus} alt="barnus" style={{maxWidth: 100}}/>
                     </a>
                 </NavbarBrand>
                 <NavLink href='#/' className='d-flex'>
@@ -20,8 +21,8 @@ export function Navigation() {
                 <NavLink href='#sell' className='d-flex'>
                     <h4 className='text-light justify-content-center m-auto px-5'>Sell</h4>
                 </NavLink>
-                <NavLink className='d-flex'>
-                    <h4 className='text-light justify-content-center m-auto px-5'>Contact</h4>
+                <NavLink href="#about"className='d-flex'>
+                    <h4 className='text-light justify-content-center m-auto px-5'>Rólunk</h4>
                 </NavLink>
                 
             </Nav>
