@@ -1,6 +1,5 @@
 import {} from 'react'
 import {Nav, Navbar, NavbarBrand, NavLink} from 'react-bootstrap'
-import { FaCarOn } from "react-icons/fa6";
 import barnus from "/barnus.png"
 export function Navigation() {
     return (
