@@ -35,6 +35,18 @@
         "condition": "rarely used",
         "hp": 200,
         "currentBid": 35000
+      },
+      {
+        "name": "Krabby Patty coupé",
+        "img1": "https://i.postimg.cc/KzM3c4xn/Sponge-Bob-Square-Pants-Patty-Wagon.webp",
+        "img2": "https://i.postimg.cc/Y9ZN8Jqx/n5vchraxh5j91.jpg",
+        "description": "A 2004 Krabby Patty coupé in perfect condition, recentlyy had it's whole interior refurbuished, smells like fresh meat patties.",
+        "year": 2004,
+        "mileage": 30000,
+        "displacement": 8200,
+        "condition": "mint condition",
+        "hp": 180,
+        "currentBid": 50000
       }
     ]
   }

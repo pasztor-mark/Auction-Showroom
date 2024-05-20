@@ -4,6 +4,7 @@ import Navigation from './components/Navbar/Navigation'
 import { Landing } from './pages/Landing/Landing'
 import Footer from './components/Footer/Footer'
 import { Auction } from './pages/Auction/auction'
+import { ContactPage } from './pages/Contact/Contact'
 import Sell from './pages/Sell/Sell'
 import About from './pages/About/About'
 

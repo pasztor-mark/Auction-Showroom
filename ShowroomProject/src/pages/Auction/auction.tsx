@@ -23,6 +23,7 @@ export function Auction() {
         }
         load()
       }, [])
+
     return (
         <>
         <Container className='text-light'>

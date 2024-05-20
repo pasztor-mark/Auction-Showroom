@@ -8,3 +8,27 @@
               - Termék részleteinek megbeszélése
 2024 04. 17
   - P.M - nem akarok törizni, valamit csinálok rajta
+2024 04. 18
+  - P.M - sell page és aukció alapja kész (ez és a tegnapi a munkám holnapra mert nem leszek bent)
+2024 04. 19
+  - B.B (commitok nélküli)
+      - adatbázis kész (https://api.jsonbin.io/v3/b/661fff7aad19ca34f85b960a)
+      - adatbázis beállítása
+      - tesztelésre forkolta a repót
+  - P.B (commitok nélkül)
+      - képek megvágása
+      - pages workflow átírása
+  - P.B - szöveg fixek, contact oldal létrehozása
+2024. 04. 26
+  - B.B 
+        - FAQ kártyák létrehozása
+        - szöveg fixek
+        - Backend és frontend tesztek
+  - P.B
+        - Elérhetőség kártyák megírása
+        - Szövegek frissítése
+        - Naplózás
+  - P.M
+        - Contact page alapjainak felépítése
+        - Hiba megfixelése
+    
