@@ -20,6 +20,7 @@ function App() {
             <Route path='/auction' element={<Auction/>}></Route>
             <Route path='/sell' element={<Sell/>}></Route>
             <Route path='/about' element={<About/>}></Route>
+            <Route path='/contact' element={<ContactPage/>}></Route>
         </Route>
       </Routes>
       </HashRouter>
