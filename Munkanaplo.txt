@@ -31,4 +31,22 @@
   - P.M
         - Contact page alapjainak felépítése
         - Hiba megfixelése
-    
+2024. 05. 20
+  - B.B
+        - PowerPoint elkezdése
+        - Backend tesztek
+  - P.B
+        - Videó felvétele
+  - P.M
+        - Projektleírás oldal elkészítése
+        - Contact oldal megjavítása
+        - Néhány style update
+2024. 05. 21
+  - B.B
+        - PowerPoint elkészült
+  - P.B
+        - Videó megvágva (https://www.youtube.com/watch?v=AM3BkzMnajY)
+        - Munkanapló véglegesítése
+  - P.M
+        - Frontend tesztek
+  
